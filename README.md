@@ -22,17 +22,17 @@ Install the dependencies
 pip install -r requirements.txt
 ```
 
-### Step-3
+### Setp-3
+
+Create a `.env` file and copy the contents from `.env.example` and replace with your keys
+
+### Step-4
 
 Run the FastAPI application
 
 ```bash
 uvicorn app.main:app --reload
 ```
-
-### Setp-4
-
-Create a `.env` file and copy the contents from `.env.example` and replace with your keys
 
 ### Step-5
 
