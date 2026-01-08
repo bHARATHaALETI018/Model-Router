@@ -1,7 +1,19 @@
 *
 !requirements.txt
 !README.md
-!app/
 !.env.example
 !.gitignore
 !Dockerfile
+!app/
+!app/**
+
+# Exclude unwanted files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.DS_Store
+*.env
+*.log
