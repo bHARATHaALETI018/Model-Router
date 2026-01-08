@@ -1,0 +1,7 @@
+*
+!requirements.txt
+!README.md
+!app/
+!.env.example
+!.gitignore
+!Dockerfile
