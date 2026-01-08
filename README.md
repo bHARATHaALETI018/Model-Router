@@ -24,7 +24,10 @@ Run the FastAPI application
 ```bash
 uvicorn app.main:app --reload
 ```
-### Step-4
+### Setp-4
+Create a `.env` file and copy the contents from `.env.example` and replace with your keys
+
+### Step-5
 Test the server from the terminal
 
 ```
