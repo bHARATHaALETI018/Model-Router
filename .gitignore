@@ -6,6 +6,8 @@
 !Dockerfile
 !app/
 !app/**
+!tests/
+!tests/**
 
 # Exclude unwanted files and folders
 __pycache__/
