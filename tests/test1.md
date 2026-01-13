@@ -20,6 +20,14 @@ export ROUTER_CONFIG_PATH=$(pwd)/config/config.yaml
 uvicorn app.main:app --reload
 ```
 
+```bash 
+# docker stuff
+sudo docker tag model-router:latest infraraja18/main-proj-acc:v0.1
+sudo docker push infraraja18/main-proj-acc:v0.1
+docker pull infraraja18/main-proj-acc:v0.2
+```
+
+
 Test:
 ```bash
 curl -X POST http://localhost:8000/generate \
