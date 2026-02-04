@@ -1,0 +1,9 @@
+Test:
+# paste the below request in the terminal
+# Linux
+curl -X POST http://localhost:8000/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "prompt": "Say hello like a pirate",
+    "model": "gpt-5-nano"
+  }'
